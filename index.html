@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyu Madison - Lien sécurisé</title>
+    
+    <!-- Open Graph / Twitter Card pour un aperçu parfait et SAFE sur X (Twitter) -->
+    <meta property="og:title" content="Tyu Madison">
+    <meta property="og:description" content="Lien sécurisé • Cliquez pour accéder au contenu">
+    <meta property="og:image" content="https://raw.githubusercontent.com/sophi-ai/andrana/main/preview.jpg">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tyu Madison">
+    <meta name="twitter:description" content="Lien sécurisé • Cliquez pour accéder au contenu">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/sophi-ai/andrana/main/preview.jpg">
 
+    <!-- Redirection automatique ultra-safe (meta refresh + JS backup) -->
+    <meta http-equiv="refresh" content="2; url=https://getmysocial.com/tyumadison">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', system-ui, sans-serif;
+            background: #000;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow: hidden;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 100%;
+            padding: 20px;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 16px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 28px;
+            margin: 0 0 10px 0;
+            font-weight: 600;
+        }
+        
+        p {
+            font-size: 18px;
+            opacity: 0.8;
+            margin: 0;
+        }
+        
+        .loader {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            border: 3px solid rgba(255,255,255,0.3);
+            border-top: 3px solid #fff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-top: 20px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .footer {
+            position: fixed;
+            bottom: 20px;
+            font-size: 13px;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Image de preview affichée en grand (pour les utilisateurs qui ouvrent directement le lien) -->
+        <img src="https://raw.githubusercontent.com/sophi-ai/andrana/main/preview.jpg" alt="Tyu Madison Preview">
+        
+        <h1>Redirection automatique</h1>
+        <p>Vous allez être redirigé vers le lien sécurisé en 2 secondes...</p>
+        
+        <div class="loader"></div>
+        
+        <p style="margin-top: 40px; font-size: 14px; opacity: 0.5;">
+            🔒 Lien 100% safe • Optimisé pour X (Twitter)
+        </p>
+    </div>
+
+    <div class="footer">
+        getmysocial.com/tyumadison
+    </div>
+
+    <!-- Backup JavaScript (fonctionne même si meta refresh est bloqué) -->
+    <script>
+        setTimeout(() => {
+            window.location.href = "https://getmysocial.com/tyumadison";
+        }, 2000);
+    </script>
+</body>
+</html>
